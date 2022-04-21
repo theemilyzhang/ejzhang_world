@@ -5,4 +5,10 @@ class Article < ApplicationRecord
     validates_presence_of :content
     scope :active, 			 -> { where('active = ?', true) }
     scope :alphabetical, -> { order('title') }
+
+
+
+
+    # Emily you are so fucking cool'
+    # luv u
 end
